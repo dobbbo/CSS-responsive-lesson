@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+header, section {
+    flex: 3 50vw;
+}
+
+header, section, nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    background-color: rgb(158, 255, 119);
+    flex: 1 50px;
+}
+
+header {
+    background-color: rgb(90, 255, 247);
+}
+
+main {
+    background-color: rgb(195, 195, 195);
+    padding: 1rem;
+}
+
+#sign-up {
+    background-color: rgb(183, 199, 255);
+}
+
+#feature-1 {
+    background-color: rgb(255, 203, 106);
+}
+
+#feature-2 {
+    background-color: rgb(255, 152, 255);
+}
+
+#feature-3 {
+    background-color: rgb(255, 160, 160);
+}
